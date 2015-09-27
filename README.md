@@ -19,17 +19,17 @@ console.log(output);
 
 This is how the code will be instrumented
 
-#### func()
-  `box_call(func())`
+#### Function calls
+  `alert(1)` becomes`box_call(alert())`
 
-#### a[1]
-  `box_accessor(a, 1)`
+#### Property accessors
+  `a+1` becomes `box_accessor(a, 1)`
 
-#### a+b
-  `box_binary(a, b, "+")`
+#### Binary operations
+  `a+b` becomes `box_binary(a, b, "+")`
 
-#### "str"
-  `box_string("str")`
+#### String
+  `"some string"` becomes `box_string("some string")`
 
 ## Credits
 
