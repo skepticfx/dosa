@@ -1,0 +1,25 @@
+{
+  "name": "dosa",
+  "version": "1.0.0",
+  "description": "A Javascript transpiler for instrumentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skepticfx/dosa.git"
+  },
+  "author": "Ahamed Nafeez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skepticfx/dosa/issues"
+  },
+  "homepage": "https://github.com/skepticfx/dosa#readme",
+  "dependencies": {
+    "uglify-js": "^2.4.24"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
