@@ -33,4 +33,4 @@ This is how the code will be instrumented
 
 ## Credits
 
-I found the [UglifyJS](https://github.com/mishoo/UglifyJS2) project's [AST structure](https://github.com/skepticfx/uglify-ast/blob/master/ast-spec.md) to be very expressive and made writing this transpiler easier for me.
+I found the [UglifyJS](https://github.com/mishoo/UglifyJS2) project's [AST structure](https://github.com/skepticfx/uglify-ast/blob/master/spec.md) to be very expressive and made writing this transpiler easier for me.
