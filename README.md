@@ -20,7 +20,7 @@ console.log(output);
 This is how the code will be instrumented
 
 #### Function calls
-  `alert(1)` becomes`box_call(alert())`
+  `alert(1)` becomes`box_call(alert(1))`
 
 #### Property accessors
   `a+1` becomes `box_accessor(a, 1)`
