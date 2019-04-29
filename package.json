@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/skepticfx/dosa#readme",
   "dependencies": {
-    "uglify-js": "^2.4.24"
+    "uglify-js": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
